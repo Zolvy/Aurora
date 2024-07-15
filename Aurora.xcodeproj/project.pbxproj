@@ -3,8 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC634882C44C15900BD9837 /* DiscordRPC in Frameworks */ = {isa = PBXBuildFile; productRef = ACC634872C44C15900BD9837 /* DiscordRPC */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		AC5B39412C4479270005C606 /* PBXContainerItemProxy */ = {
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC634882C44C15900BD9837 /* DiscordRPC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,7 @@
 			);
 			name = Aurora;
 			packageProductDependencies = (
+				ACC634872C44C15900BD9837 /* DiscordRPC */,
 			);
 			productName = Aurora;
 			productReference = AC5B392F2C4479240005C606 /* Aurora.app */;
@@ -183,6 +189,10 @@
 				Base,
 			);
 			mainGroup = AC5B39262C4479240005C606;
+			packageReferences = (
+				ACC634852C44C08A00BD9837 /* XCRemoteSwiftPackageReference "swift-system" */,
+				ACC634862C44C15900BD9837 /* XCRemoteSwiftPackageReference "DiscordRPC" */,
+			);
 			productRefGroup = AC5B39302C4479240005C606 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -528,6 +538,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ACC634852C44C08A00BD9837 /* XCRemoteSwiftPackageReference "swift-system" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-system.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+		ACC634862C44C15900BD9837 /* XCRemoteSwiftPackageReference "DiscordRPC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aeddi/DiscordRPC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ACC634872C44C15900BD9837 /* DiscordRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACC634862C44C15900BD9837 /* XCRemoteSwiftPackageReference "DiscordRPC" */;
+			productName = DiscordRPC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC5B39272C4479240005C606 /* Project object */;
 }

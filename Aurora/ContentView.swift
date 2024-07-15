@@ -2,20 +2,25 @@
 //  ContentView.swift
 //  Aurora
 //
-//  Created by Daniel Leach on 7/14/24.
+//  Created by Daniel on 7/14/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationSplitView {
+            SidebarView()
+                .navigationSplitViewColumnWidth(150)
+        } detail: {
+            HomeView()
         }
-        .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
 

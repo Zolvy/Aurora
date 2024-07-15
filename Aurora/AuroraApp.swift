@@ -2,7 +2,7 @@
 //  AuroraApp.swift
 //  Aurora
 //
-//  Created by Daniel Leach on 7/14/24.
+//  Created by Daniel on 7/14/24.
 //
 
 import SwiftUI
@@ -13,5 +13,6 @@ struct AuroraApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }

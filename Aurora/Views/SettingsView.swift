@@ -2,7 +2,7 @@
 //  SettingsView.swift
 //  Aurora
 //
-//  Created by Daniel Leach on 7/14/24.
+//  Created by Daniel on 7/14/24.
 //
 
 import SwiftUI

@@ -1,6 +1,6 @@
 <div align="center">
    <img 
-   src="./assets/Aurora.png"
+   src="https://github.com/Zolvy/Aurora-electron/blob/main/assets/Aurora.png?raw=true"
    height="300"
    />
    <h1>Aurora</h1>

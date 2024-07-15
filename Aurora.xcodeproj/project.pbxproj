@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ACC634882C44C15900BD9837 /* DiscordRPC in Frameworks */ = {isa = PBXBuildFile; productRef = ACC634872C44C15900BD9837 /* DiscordRPC */; };
+		ACE943202C44E24300660559 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACE9431F2C44E23E00660559 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		AC5B392F2C4479240005C606 /* Aurora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aurora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5B39402C4479270005C606 /* AuroraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuroraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5B394A2C4479270005C606 /* AuroraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuroraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE9431F2C44E23E00660559 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -68,6 +70,7 @@
 		AC5B39262C4479240005C606 = {
 			isa = PBXGroup;
 			children = (
+				ACE9431F2C44E23E00660559 /* README.md */,
 				AC5B39312C4479240005C606 /* Aurora */,
 				AC5B39432C4479270005C606 /* AuroraTests */,
 				AC5B394D2C4479270005C606 /* AuroraUITests */,
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE943202C44E24300660559 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
